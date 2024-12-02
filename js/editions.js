@@ -1,3 +1,16 @@
+function addEdition(edition) {
+  EDITIONS.push(edition);
+}
+
+var storedEdition = {
+  "title": "",
+  "description": "",
+  "firstMessage": "",
+  "logo": "",
+  "versions": [],
+  "upcomings": [],
+};
+
 const EDITIONS = [
   {
     "title": "Improvists",
