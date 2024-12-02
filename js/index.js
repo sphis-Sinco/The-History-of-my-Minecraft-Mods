@@ -44,7 +44,7 @@ const buttonMemoriesDOM = id("button-toggle-memories");
 let editionsWithDOMs = [];
 
 let showMajor = true;
-let showMinor = false;
+let showMinor = true;
 let showEvents = true;
 let showMemories = false;
 
@@ -627,8 +627,10 @@ function showInfopanel(version) {
 
 		switch (version.type) {
 			case "minor":
+				infoLearnMoreDOM.innerText = "Learn more about this minor content update";
+				break;
 			case "major":
-				infoLearnMoreDOM.innerText = "Learn more about this update";
+				infoLearnMoreDOM.innerText = "Learn more about this major content update";
 				break;
 			case "event":
 				infoLearnMoreDOM.innerText = "Learn more about this event";
