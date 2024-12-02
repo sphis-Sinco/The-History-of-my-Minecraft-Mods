@@ -7,6 +7,15 @@ const EDITIONS = [
 
     versions: [
       {
+        subtitle: "Concept",
+        description: "The Idea came into fruision",
+        type: "event",
+        date: "2024-11-30",
+        icon: "versions/version_unknown.png",
+        mainFeatures: [],
+        minorFeatures: [],
+      },
+      {
         subtitle: "v0.1",
         description: "Money and an Ancient Structure",
         type: "major",
@@ -29,7 +38,7 @@ const EDITIONS = [
         date: "2024-12-04", // year-month-day
         icon: "versions/version_unknown.png",
         mainFeatures: [{ text: "Ore Nuggets" }],
-        minorFeatures: [],
+        minorFeatures: [{ text: "Nothing new." }],
       },
     ],
   },
