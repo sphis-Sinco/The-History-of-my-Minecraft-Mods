@@ -497,7 +497,15 @@ function makeBox(version, edition, date) {
 	if (version.first) {
 
 		let text1 = make("h1", "", edition.firstMessage);
-		let text2 = make("h1", "", MONTH_NAMES[date.getMonth()] + " " + date.getFullYear());
+		let text2 = make(
+      "h1",
+      "",
+      MONTH_NAMES[date.getMonth()] +
+        " " +
+        date.getDate() +
+        ", " +
+        date.getFullYear()
+    );
 		let box = make("div", "box");
 
 		let content = make("div", "content");
@@ -514,7 +522,15 @@ function makeBox(version, edition, date) {
 	if (version.today) {
 
 		let text1 = make("h1", "", "Today");
-		let text2 = make("h1", "", MONTH_NAMES[date.getMonth()] + " " + date.getFullYear());
+		let text2 = make(
+      "h1",
+      "",
+      MONTH_NAMES[date.getMonth()] +
+        " " +
+        date.getDate() +
+        ", " +
+        date.getFullYear()
+    );
 		let box = make("div", "box");
 
 		let content = make("div", "content");

@@ -36,7 +36,7 @@ const EDITIONS = [
         subtitle: "v0.1.1",
         description: "Small Content Update",
         type: "minor", // major, minor, event, or memory
-        date: "2024-12-04", // year-month-day
+        // date: "2024-12-05", // year-month-day
         icon: "versions/version_unknown.png",
         mainFeatures: [{ text: "Ore Nuggets" }],
         minorFeatures: [{ text: "Nothing else." }],
