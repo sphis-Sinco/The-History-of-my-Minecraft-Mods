@@ -10,10 +10,11 @@ const EDITIONS = [
         subtitle: "Concept",
         description: "The Idea came into fruision",
         type: "event",
-        date: "2024-11-30",
+        date: "2024-12-01",
         icon: "versions/version_unknown.png",
-        mainFeatures: [],
-        minorFeatures: [],
+        funFact: "This event takes place the day before",
+        mainFeatures: [{ text: "A mod that improves on minecraft" }],
+        minorFeatures: [{ text: "Nothing else." }],
       },
       {
         subtitle: "v0.1",
@@ -38,7 +39,7 @@ const EDITIONS = [
         date: "2024-12-04", // year-month-day
         icon: "versions/version_unknown.png",
         mainFeatures: [{ text: "Ore Nuggets" }],
-        minorFeatures: [{ text: "Nothing new." }],
+        minorFeatures: [{ text: "Nothing else." }],
       },
     ],
   },
