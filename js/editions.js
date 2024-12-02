@@ -1,7 +1,7 @@
 const EDITIONS = [
   {
-    "title": "Improvists (Mod)",
-    "description": "The main mod",
+    "title": "Improvists",
+    "description": "The mod for improving MC",
     "firstMessage": "The Mod is Released",
     "logo": "default.png",
 
